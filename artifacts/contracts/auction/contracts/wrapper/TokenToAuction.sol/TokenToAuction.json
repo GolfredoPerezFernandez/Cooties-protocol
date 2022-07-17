@@ -1,0 +1,35 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "TokenToAuction",
+  "sourceName": "contracts/auction/contracts/wrapper/TokenToAuction.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_collection",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getAuctionByToken",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060f68061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063152b2c0a14602d575b600080fd5b606b6038366004607d565b73ffffffffffffffffffffffffffffffffffffffff91909116600090815260208181526040808320938352929052205490565b60405190815260200160405180910390f35b60008060408385031215608f57600080fd5b823573ffffffffffffffffffffffffffffffffffffffff8116811460b257600080fd5b94602093909301359350505056fea26469706673582212206512dc95391e52b2210dd70b1dead08e82ba65ec80c52082c62c4f6c6569a6ce64736f6c63430008070033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063152b2c0a14602d575b600080fd5b606b6038366004607d565b73ffffffffffffffffffffffffffffffffffffffff91909116600090815260208181526040808320938352929052205490565b60405190815260200160405180910390f35b60008060408385031215608f57600080fd5b823573ffffffffffffffffffffffffffffffffffffffff8116811460b257600080fd5b94602093909301359350505056fea26469706673582212206512dc95391e52b2210dd70b1dead08e82ba65ec80c52082c62c4f6c6569a6ce64736f6c63430008070033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
